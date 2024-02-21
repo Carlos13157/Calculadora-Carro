@@ -1,3 +1,8 @@
+html {
+    zoom: 0.95; /* Puedes ajustar este valor según tus necesidades */
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
