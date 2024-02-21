@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('https://img.freepik.com/fotos-premium/ilustracion-formula-cientifica-sobre-concepto-ciencia-e-investigacion-fondo-edificio-oficinas-contemporaneo-borroso-exposicion-multiple_258654-9808.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat;
+    
+
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+input {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 34%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#resultado {
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#sustitucion {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: justify;;
+}
+
+#Modelo_Carro {
+    position: absolute; /* Establece la posición absoluta para poder usar top y right */
+    top: 0; /* Ajusta la posición desde la parte superior de la página */
+    right: 0; /* Ajusta la posición desde la parte derecha de la página */
+    border-radius: 15px;
+}
+
+#Credits{
+    /* Establece la posición absoluta para poder usar top y right */
+    margin-top: 275px; /* Ajusta la posición desde la parte superior de la página */
+    margin-left: 675px ; /* Ajusta la posición desde la parte derecha de la página */ 
+    display: inline-block;
+}
